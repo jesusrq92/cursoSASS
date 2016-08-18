@@ -1,23 +1,6 @@
-/********** */
 /*SASS */
-/********** */
-/********** */
-/*Variables */
-/********** */
-/********** */
-/*Mixins*** */
-/********** */
-/************* */
-/*Placeholders */
-/************* */
-/********** */
-/*Mixins*** */
-/********** */
-/********** */
-/*Content** */
-/********** */
 * {
-  padding: 0; }
+  padding: 0px; }
 
 .anchoCol {
   padding-left: 0px;
@@ -35,9 +18,9 @@ h1 {
 
 nav {
   float: right;
-  padding-top: 35px;
+  padding-top: 25px;
   padding-right: 0px;
-  padding-bottom: 35px; }
+  padding-bottom: 25px; }
   nav a {
     color: white;
     padding-left: 6px;
@@ -51,7 +34,7 @@ nav {
 
 #bgPrincipal {
   width: 100%;
-  height: 160vh !important;
+  height: 100vh !important;
   background-image: url("../images/bgFondo.jpg");
   background-position: center top;
   background-size: cover;
@@ -60,29 +43,19 @@ nav {
 .titleHead {
   float: left;
   width: 100%;
-  margin-top: -1.3em;
-  font-family: "Dancing Script", cursive;
-  font-size: 53px; }
+  margin-top: -1.5em; }
 
 .left {
   float: left; }
-  .left p {
-    width: 100% !important;
-    text-align: none !important; }
 
 .right {
   float: right; }
-  .right p {
-    width: 100% !important;
-    text-align: none !important; }
 
 p {
   color: white;
+  font-size: 12px;
   padding: 10px;
-  text-align: justify;
-  width: 90%;
-  font-family: "El Messiri", sans-serif;
-  font-size: 16px; }
+  text-align: justify; }
 
 .row {
   margin-right: 0px !important;
@@ -99,20 +72,10 @@ button {
   color: white;
   margin-top: 5em;
   transition: 0.4s;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  border-radius: 2px;
-  border-style: solid;
-  border-color: white; }
+  border: 2px solid white; }
   button:hover {
     background-color: white;
     color: black;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    border-radius: 2px;
-    border-style: solid;
-    border-color: black; }
+    border: 2px solid black; }
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilo.css.map */
