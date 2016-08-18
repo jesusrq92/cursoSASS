@@ -1,1 +1,90 @@
 /*SASS*/
+*
+	padding: 0px
+
+$white: white
+$gris: grey
+
+.anchoCol
+	padding:
+		left: 0px
+		right: 0px
+	.parrafo
+		padding-top: 1.5em
+		padding-right: 3em
+		padding-left: 3em
+
+body
+	background-color: black
+
+h1
+	color: $white
+
+nav
+	float: right
+	padding:
+		top: 25px
+		right: 0px
+		bottom: 25px
+	a 	
+		color: white
+		padding:
+			left: 6px
+			right: 6px
+		transition: .2s
+		&:hover
+			color: $gris !important
+
+
+.separator
+	color: $gris !important
+
+#bgPrincipal
+	width: 100%
+	// min-height: 500px !important
+	// max-height: 500px !important
+	height: 100vh !important
+	background-image: url("../images/bgFondo.jpg")
+	background-position: center top
+	background-size: cover
+	background-attachment: fixed
+
+.titleHead
+	float: left
+	width: 100%
+	margin-top: -1.5em
+
+.left
+	float: left
+
+.right
+	float: right
+
+p
+	color: white
+	font-size: 12px
+	padding: 10px
+	text-align: justify
+
+.row
+	margin-right: 0px !important
+	margin-left: 0px !important
+
+.container-fluid 
+	padding-right: 0px !important
+	padding-left: 0px !important
+
+button
+	width: 200px
+	height: 50px
+	background-color: black
+	color: white
+	margin-top: 5em
+	transition: .4s
+	border: 2px solid white
+	&:hover
+		background-color: white
+		color: black
+		border: 2px solid black
+
+
